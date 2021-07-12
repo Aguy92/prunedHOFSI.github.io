@@ -1,18 +1,20 @@
 ### Supplementary data for
 
-Machine Learning Modeling of Materials with a Group-Subgroup Structure       
-Prakriti Kayastha, Raghunathan Ramakrishnan    
-Mach. Learn.: Sci. Technol. 2 (2021) 035035   
-https://doi.org/10.1088/2632-2153/abffe9
+Critical Benchmarking of Popular Composite Thermochemistry Models and 
+Density Functional Approximations on a Probabilistically Pruned Benchmark Dataset of Formation Enthalpies
+Das, Sambit Kumar and Chakraborty, Sabyasachi and Ramakrishnan, Raghunathan
+J. Chem. Phys. 154, 044113 (2021)
+https://aip.scitation.org/doi/full/10.1063/5.0032713
 
 ```
-@article{kayastha2020machine,
-title={Machine Learning Modeling of Materials with a Group-Subgroup Structure},
-author={Kayastha, Prakriti and Ramakrishnan, Raghunathan},
-journal={Machine Learning: Science and Technology},
-volume={2},
-pages={035035},
-year={2021},
-publisher={IOP Publishing}
+@article{das2021critical,
+  title={Critical benchmarking of popular composite thermochemistry models and density functional approximations on a probabilistically pruned benchmark dataset of formation enthalpies},
+  author={Das, Sambit Kumar and Chakraborty, Sabyasachi and Ramakrishnan, Raghunathan},
+  journal={The Journal of Chemical Physics},
+  volume={154},
+  number={4},
+  pages={044113},
+  year={2021},
+  publisher={AIP Publishing LLC}
 }
 ```
