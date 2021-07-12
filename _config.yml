@@ -1,6 +1,6 @@
-title: FriezeRMQ1D
+title: pruneHOF
 logo: toc.png
-description: FriezeRMQ1D Dataset for Group-Subgroup Machine Learning
+description: prunedHOF Dataset
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
