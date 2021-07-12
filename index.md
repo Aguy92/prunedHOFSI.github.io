@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+---
+layout: default
+---
 
-You can use the [editor on GitHub](https://github.com/Aguy92/prunedHOFSI.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## prunedHOF Dataset
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ 
+### Supplementary data for
 
-### Markdown
+Critical Benchmarking of Popular Composite Thermochemistry Models and Density Functional Approximations on a Probabilistically Pruned Benchmark Dataset of Formation Enthalpies
+Sambit Kumar Das, Sabyasachi Chakraborty, Raghunathan Ramakrishnan 
+J. Chem. Phys. 154, 044113 (2021) 
+[https://aip.scitation.org/doi/full/10.1063/5.0032713](https://aip.scitation.org/doi/full/10.1063/5.0032713)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+  @article{das2021critical,
+  title={Critical Benchmarking of Popular Composite Thermochemistry Models and Density Functional Approximations on a Probabilistically Pruned Benchmark Dataset of Formation Enthalpies},
+  author={Das, Sambit Kumar and Chakraborty, Sabyasachi and Ramakrishnan, Raghunathan},
+  journal={The Journal of Chemical Physics},
+  volume={154},
+  number={4},
+  pages={044113},
+  year={2021},
+  publisher={AIP Publishing LLC}
+  }
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Last modified: 21 July 2021
 
-### Jekyll Themes
+1694 Enthalpies (.xlsx 361 kB) Contains formation enthalpies from 29 methods (atomic corrections included for 23 DFAs).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Aguy92/prunedHOFSI.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1694 Enthalpies (.txt 666 kB) Contains formation enthalpies from 29 methods (atomic corrections included for 23 DFAs).
 
-### Support or Contact
+1694 Geometries (.xyz 1.5 MB) Contains geometries from the B3LYP/6-31G(2df,p)-level.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+atomic_bias (.f90 21 kB) Calculates element wise corrections to heat of formation for 23 DFAs explored in this study.
+
