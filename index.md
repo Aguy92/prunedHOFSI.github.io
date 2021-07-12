@@ -2,35 +2,36 @@
 layout: default
 ---
 
-## FriezeRMQ1D Dataset for Group-Subgroup Machine Learning
+## prunedHOF Dataset
 
  
 ### Supplementary data for
 
-Machine Learning Modeling of Materials with a Group-Subgroup Structure       
-Prakriti Kayastha, Raghunathan Ramakrishnan    
-Mach. Learn.: Sci. Technol. 2 (2021) 035035   
-[https://doi.org/10.1088/2632-2153/abffe9](https://doi.org/10.1088/2632-2153/abffe9)
+Critical Benchmarking of Popular Composite Thermochemistry Models and Density Functional Approximations on a Probabilistically Pruned Benchmark Dataset of Formation Enthalpies
+Sambit Kumar Das, Sabyasachi Chakraborty, Raghunathan Ramakrishnan 
+J. Chem. Phys. 154, 044113 (2021) 
+[https://aip.scitation.org/doi/full/10.1063/5.0032713](https://aip.scitation.org/doi/full/10.1063/5.0032713)
 
 ```
-  @article{kayastha2020machine,
-  title={Machine Learning Modeling of Materials with a Group-Subgroup Structure},
-  author={Kayastha, Prakriti and Ramakrishnan, Raghunathan},
-  journal={Machine Learning: Science and Technology},
-  volume={2},
-  number={3},
-  pages={035035},
+  @article{das2021critical,
+  title={Critical Benchmarking of Popular Composite Thermochemistry Models and Density Functional Approximations on a Probabilistically Pruned Benchmark Dataset of Formation Enthalpies},
+  author={Das, Sambit Kumar and Chakraborty, Sabyasachi and Ramakrishnan, Raghunathan},
+  journal={The Journal of Chemical Physics},
+  volume={154},
+  number={4},
+  pages={044113},
   year={2021},
-  publisher={IOP Publishing}
+  publisher={AIP Publishing LLC}
   }
 ```
 
 Last modified: 21 July 2021
 
-7x1199_FriezeOpt.xyz (6.3 MB) Contains atomic coordinates (in Å) of 8393 RMQ1D materials (7 Frieze groups, 11 Metals, 109 Rings). The geometries were optimized for the Cu systems.
+1694 Enthalpies (.xlsx 361 kB) Contains formation enthalpies from 29 methods (atomic corrections included for 23 DFAs).
 
-7x1199_P1subgroup.xyz (8.4 MB) Contains atomic coordinates (in Å) of 8393 RMQ1D materials. Geometries of the larger 6 frieze groups were constructed with the P1 geometries placed at Wyckoff positions.
+1694 Enthalpies (.txt 666 kB) Contains formation enthalpies from 29 methods (atomic corrections included for 23 DFAs).
 
-7x1199_PBE0_AtmE.dat (137 kB) Contains PBE0 atomization energies per-formula-unit per-atom (in eV/atom) for 8393 RMQ1D materials. Energies were calculated in a single point fashion on 7x1199_FriezeOpt.xyz (PBE geometries).
+1694 Geometries (.xyz 1.5 MB) Contains geometries from the B3LYP/6-31G(2df,p)-level.
 
-7x1199_fingerprint.dat (4.9 MB) Contains Wyckoff-encoded fingerprint vectors for 8393 RMQ1D materials.
+atomic_bias (.f90 21 kB) Calculates element wise corrections to heat of formation for 23 DFAs explored in this study.
+
