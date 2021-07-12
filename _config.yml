@@ -1,0 +1,8 @@
+title: FriezeRMQ1D
+logo: toc.png
+description: FriezeRMQ1D Dataset for Group-Subgroup Machine Learning
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
+defaults:
+  layout: single
